@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  max-width: 1384px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none !important;
+}
